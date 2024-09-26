@@ -35,7 +35,7 @@ const Checkout = () => {
             if (!firstName || !lastName || !street || !state || !mnplct || !phone || !email) {
                 throw Error("All Fields are required")
             }
-            const res = await newOrder({ totalPrice: total + 10, cart, billingInfo: { firstName, lastName, street, state, mnplct, phone, email } })
+            const res = await newOrder({ totalPrice: total + 500, cart, billingInfo: { firstName, lastName, street, state, mnplct, phone, email } })
             dispatch({
                 type: 'CLEAR_CART',
             });
