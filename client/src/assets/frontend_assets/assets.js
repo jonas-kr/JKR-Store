@@ -43,4 +43,4 @@ export const assets = {
     check_icon
 }
 
-export const URL = "http://localhost:2024"
+export const URL = "https://jkr-store.onrender.com"
