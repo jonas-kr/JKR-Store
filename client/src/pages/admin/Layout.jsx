@@ -27,7 +27,7 @@ function Layout() {
     return (
         <section className="bg-gray-50">
             <div className="flex items-center py-2 px-[4%] justify-between">
-                <img className="w-[max(10%,80px)]" src={assets.logo4} alt="logo" />
+                <img className="w-[max(10%,80px)]" src={assets.logo} alt="logo" />
                 <button className="bg-gray-600 text-white px-5 py-2 sm:px-7 sm:py-2 rounded-full text-xs sm:text-sm" onClick={logout}>Logout</button>
             </div>
             <main className="flex border-t-2">
